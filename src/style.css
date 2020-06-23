@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.calculator {
+    display: flex;
+    width: 236px;
+    height: 325px;
+    border-radius: 5px;
+    background-color: #595958;
+    border: 1px solid #767575;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.7);
+}
+
+.calculator__form {
+    align-self: flex-end;
+}
+
+.calculator__btn:active,
+.calculator__btnBig:active {
+    filter: contrast(2);
+}
+
+.row {
+    display: flex;
+    height: 50px;
+}

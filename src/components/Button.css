@@ -1,0 +1,72 @@
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: inherit;
+}
+
+.calculator__btn,
+.calculator__btnBig {
+    background-color: #818181;
+    border: 1px solid #575657;
+    margin: -1px;
+    border-collapse: collapse;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.calculator__form .row:nth-child(3) .calculator__btn {
+    background-color: #686868;
+}
+
+.row .calculator__btn:last-child {
+    background-color: #FF9F0A !important;
+}
+
+.calculator__btn {
+    flex: 1;
+}
+
+.calculator__form div:last-child .calculator__btn:first-child {
+    flex: 2;
+}
+
+/* -- control buttons -- */
+
+.exit__btn, .hide__btn, .max__btn {
+    align-self: center;
+    margin: 0 4px;
+    height: 12px;
+    width: 12px;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 9px;
+}
+
+
+.exit__btn {
+    margin-left: 8px;
+    background-color: #FE5B51;
+    color: transparent;
+    /* color: #941F16; */
+}
+
+.hide__btn {
+    background-color: #E6C02A;
+    color: transparent;
+    /* color: #AE8E34; */
+}
+
+.max__btn {
+    background-color: #54C12C;
+    color: transparent;
+    /* color: #397422; */
+}
+
+.exit__btn:hover { color: #A10704; }
+.hide__btn:hover { color: #B48D16; }
+.max__btn:hover { color: #1A7609; }
